@@ -1,0 +1,229 @@
+/*--Basic elements styles--*/
+
+body {
+    background-image: url("../img/iceland-background.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    color: #2d3945;
+    font-weight: 700;
+}
+
+p {
+    color: #c4c8cb;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    background: #2d3945;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+.container {
+    background: transparent;
+}
+
+/*--Header--*/
+
+header {
+    text-align: center;
+    background: rgba(217,225,238, 0.8);
+    border-bottom: 1px solid rgba(217, 225, 238, .4);
+}
+
+#upper-header {
+    background: #2d3945;
+    color: #ffffff;
+}
+
+#lower-header {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px #2d3945 solid;
+    margin-bottom: 3px;
+    background: #ffffff;
+    padding-top: 1em;
+}
+
+/*--body background styling--*/
+.main-content {
+    background: linear-gradient(0deg, #d9e1ee, transparent, #d9e1ee 105%);
+}
+
+/*---form styling general--*/
+form {
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #2d3945;
+    background: #ffffff;
+}
+
+h1.page-title {
+    color: #ffffff;
+    margin: 0;
+    padding: 1em;
+    text-transform: uppercase;
+    
+}
+
+form p {
+    color: #46698b;
+}
+
+label {
+    display: block;
+    color: #46698b;
+}
+
+legend {
+    font-size: 1.5em;
+    font-family: "Lato", sans-serif;
+    color: #2d3945;
+    font-weight: 700;
+}
+
+input {
+    background: #eff0f1;
+    width: 90%;
+    border: none;
+    height: 2.75em;
+    border-radius: 3px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+input[placeholder="Required"], input[placeholder="Any phone number format"], input[placeholder="5 digit zip code"] {
+    text-align: right;
+    color: #8b8c8c;
+    font-size: 0.85em;
+    margin-right: 1em;
+    font-style: italic;
+    vertical-align: middle;
+    
+}
+
+input[placeholder="Required"]:hover, input[placeholder="Any phone number format"]:hover, input[placeholder="5 digit zip code"]:hover {
+    color: #46698b;
+    
+}
+
+input[value=""], input[value=""]:focus, textarea:focus {
+    color: #46698b;
+}
+
+textarea {
+    background: #eff0f1;
+}
+
+select{
+    background: #eff0f1;
+    border: none;
+    width: 90%;
+    height: 2.75em;
+    border-radius: 3px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
+
+select[placeholder="Choose State"] {
+    color: #8b8c8c;
+    margin-left: 0.25em;
+}
+
+option {
+    color: #8b8c8c;
+    margin-left: 0.25em;
+}
+
+select:hover, select:focus, select:active {
+    color: #46698b;
+}
+
+option:hover, option:focus {
+    transition: all 2s ease;
+    box-shadow: 2px 2px 2px #46698b;
+    border: #46698b solid 1px;
+    border-radius: 3px;
+
+}
+
+input:focus, input:hover, textarea:hover, textarea:focus {
+    transition: all 3s ease;
+    box-shadow: 2px 2px 2px #46698b;
+    border: #46698b solid 1px;
+    border-radius: 3px;
+}
+
+.help {
+    display:none;
+    font-size:90%;
+    text-align: right;
+    color: #46698b;
+    font-style: italic;
+}
+input:focus + .help {
+    display: block;
+    margin: 1em;
+}
+
+
+/*--Newsletter section of form--*/
+input[type="checkbox"], input[type="radio"] {
+    width: 5%;
+    display: inline;
+    height: 0.75em;
+    margin: 1em 0;
+}
+
+label > input[type="checkbox"], label > input[type="radio"] {
+    display: inline;
+}
+
+label:hover > input[type="checkbox"], label:hover > input[type="radio"] {
+    display: inline;
+    text-transform: uppercase;
+}
+
+
+
+
+button, input[type="submit"] {
+    background: #4ebbb5;
+    color: #ffffff;
+    font-weight: 900;
+    border: none;
+    border-radius: 3px;
+    width: 95%;
+    margin: 1em auto;
+}
+
+button:hover, input[type="submit"]:hover {
+    transition: all 2s ease;
+    background: #46698b;
+    font-family: 'Oswald';
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+
+/*--footer styling--*/
+footer {
+    background: rgba(217,225,238, 1);
+    text-align: center;
+    text-shadow: 2px 2px 1px #46698b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+     .container {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    form, #lower-header {
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+       
+
+    #contact-info label {
+        display: inline-block;
+        width: 200px;
+        height: 45px;
+        padding-top: 0.5em;
+    }
+    
+    #contact-info input, select {
+    width: 500px;
+    height: 2.75em;
+    margin-right: 0;
+    margin-left: auto;
+    float: right;
+}
+
+#contact-info input[name="zip"] {
+    width: 200px;
+}
+}
