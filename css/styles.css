@@ -154,7 +154,7 @@ select:hover, select:focus, select:active {
 }
 
 option:hover, option:focus {
-    transition: all 2s ease;
+    transition: all 1.5s ease;
     box-shadow: 2px 2px 2px #46698b;
     border: #46698b solid 1px;
     border-radius: 3px;
@@ -162,7 +162,7 @@ option:hover, option:focus {
 }
 
 input:focus, input:hover, textarea:hover, textarea:focus {
-    transition: all 3s ease;
+    transition: all 1.5s ease;
     box-shadow: 2px 2px 2px #46698b;
     border: #46698b solid 1px;
     border-radius: 3px;
